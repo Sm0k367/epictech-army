@@ -1,8 +1,8 @@
-// /app/page.tsx
 import MusicLab from "./components/MusicLab";
 import TextLab from "./components/TextLab";
 import LogoLab from "./components/LogoLab";
 import AgentShowcase from "./components/AgentShowcase";
+import CreativeGallery from "./components/CreativeGallery";
 
 export default function Home() {
 return (
@@ -35,6 +35,7 @@ Challenge the Impossible
 <TextLab />
 <LogoLab />
 <AgentShowcase />
+<CreativeGallery />
 </>
 );
 }
