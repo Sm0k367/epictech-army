@@ -1,6 +1,9 @@
 // /app/page.tsx
+import AgentShowcase from "./components/AgentShowcase";
+
 export default function Home() {
 return (
+<>
 <section className="mt-10 flex flex-col items-center max-w-3xl mx-auto px-4 py-10 bg-cyberBlack/80 rounded-lg shadow-2xl border-2 border-epicCyan animate-fade-in">
 <h2 className="font-display text-4xl lg:text-6xl font-bold text-epicCyan mb-6 text-center drop-shadow-lg">
 Welcome to the Agent Army
@@ -25,5 +28,7 @@ Challenge the Impossible
 <span className="text-xs text-spectralMagenta">Built & Deployed by Epic Tech AI</span>
 </div>
 </section>
+<AgentShowcase />
+</>
 )
 }
