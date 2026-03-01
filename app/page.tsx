@@ -1,5 +1,6 @@
 // /app/page.tsx
 import MusicLab from "./components/MusicLab";
+import TextLab from "./components/TextLab";
 import AgentShowcase from "./components/AgentShowcase";
 
 export default function Home() {
@@ -30,6 +31,7 @@ Challenge the Impossible
 </div>
 </section>
 <MusicLab />
+<TextLab />
 <AgentShowcase />
 </>
 );
