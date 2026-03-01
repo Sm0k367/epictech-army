@@ -1,4 +1,3 @@
-// /app/layout.tsx
 import '../styles/globals.css'
 import { ReactNode } from "react"
 import ShareOnX from "./components/ShareOnX";
