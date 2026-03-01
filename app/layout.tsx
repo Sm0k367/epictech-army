@@ -1,6 +1,7 @@
 // /app/layout.tsx
 import './globals.css'
 import { ReactNode } from "react"
+import ShareOnX from "./components/ShareOnX";
 
 export const metadata = {
 title: 'Epic Tech AI Agent Army',
@@ -30,6 +31,7 @@ Manifest Everything
 </span>
 </header>
 <main className="flex-1 flex flex-col w-full items-center">{children}</main>
+<ShareOnX />
 <footer className="w-full mt-8 py-4 flex justify-center bg-cyberBlack border-t border-spectralMagenta text-xs text-epicCyan opacity-80">
 <span>© {new Date().getFullYear()} Epic Tech AI. Built to break the limits.</span>
 </footer>
