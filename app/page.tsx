@@ -1,4 +1,5 @@
 // /app/page.tsx
+import MusicLab from "./components/MusicLab";
 import AgentShowcase from "./components/AgentShowcase";
 
 export default function Home() {
@@ -28,7 +29,8 @@ Challenge the Impossible
 <span className="text-xs text-spectralMagenta">Built & Deployed by Epic Tech AI</span>
 </div>
 </section>
+<MusicLab />
 <AgentShowcase />
 </>
-)
+);
 }
