@@ -19,4 +19,4 @@ body: ['Inter', 'sans-serif']
 },
 },
 plugins: [],
-}
+};
